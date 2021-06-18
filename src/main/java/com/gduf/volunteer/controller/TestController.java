@@ -8,6 +8,7 @@ public class TestController {
 
     @RequestMapping("/")
     public String index() {
+        System.out.println("push test");
         return "index";
     }
 }
