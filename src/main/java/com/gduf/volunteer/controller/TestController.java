@@ -9,6 +9,7 @@ public class TestController {
     @RequestMapping("/")
     public String index() {
         System.out.println("push test");
+        System.out.println("pull test");
         return "index";
     }
 }
